@@ -1,0 +1,17 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#5196CD</item>
+        <item name="colorPrimaryDark">#4D8BBD</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="chip" parent="Theme.MaterialComponents.Light">
+        <!-- tema para o chip -->
+        <item name="theme">@style/Theme.MaterialComponents.Light</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+</resources>
