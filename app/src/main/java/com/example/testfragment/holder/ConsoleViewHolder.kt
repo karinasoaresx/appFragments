@@ -13,7 +13,7 @@ import kotlinx.android.synthetic.main.holder_game_layout.view.*
 class ConsoleViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
     val textConsoleName          = itemView.findViewById<TextView>(R.id.text_view_console_name)
     val textConsoleDeveloperName = itemView.findViewById<TextView>(R.id.text_view_developer_name)
-    val textConsoleReleaseDate   = itemView.findViewById<TextView>(R.id.text_view_release_date)
+    val textConsoleReleaseDate   = itemView.findViewById<TextView>(R.id.text_view_developer_date)
     //val consoleImage              = itemView.findViewById<ImageView>(R.id.image_console)
 
     fun bind(console: Console) {

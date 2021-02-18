@@ -6,4 +6,5 @@
     <color name="colorHome">#A283F6</color>
     <color name="colorGames">#4CAF50</color>
     <color name="colorConsoles">#E4759B</color>
+    <color name="textWhite">#ffffff</color>
 </resources>

@@ -7,11 +7,12 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.testfragment.R
 import com.example.testfragment.adapter.ConsoleAdapter
-import com.example.testfragment.adapter.GameAdapter
 import com.example.testfragment.data.ConsoleDataSource
-import com.example.testfragment.data.GameDataSource
 import com.example.testfragment.model.Console
-import com.example.testfragment.model.Game
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+
 
 class ConsolesFragment : Fragment() {
 
@@ -29,7 +30,7 @@ class ConsolesFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val view =  inflater.inflate(R.layout.fragment_games, container, false)
+        val view =  inflater.inflate(R.layout.fragment_consoles, container, false)
 
         //instanciar a RecyclerView
         recyclerConsole = view.findViewById(R.id.recycler_view_consoles)

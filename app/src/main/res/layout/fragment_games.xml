@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.GamesFragment">
+    tools:context=".fragments.GamesFragment"
+    android:background="@android:color/black">
 
     <!-- É a representação de uma lista -->
     <!-- O recyclerview já tem um scrollView automaticamente -->

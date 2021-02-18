@@ -5,7 +5,6 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.testfragment.R
 import com.example.testfragment.holder.ConsoleViewHolder
-import com.example.testfragment.holder.GameViewHolder
 import com.example.testfragment.model.Console
 
 class ConsoleAdapter: RecyclerView.Adapter<ConsoleViewHolder>() {
